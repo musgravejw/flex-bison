@@ -1,0 +1,5 @@
+facet me (output id :: integer) :: discrete
+  xy :: integer;
+begin
+  xy@(now + 1) = xy + 1;
+end facet me;
